@@ -1,0 +1,479 @@
+@font-face {
+    font-family: Clip;
+    src: url("https://acupoftee.github.io/fonts/Clip.ttf");
+}
+
+body {
+  background-color: #141114;
+  background-image: linear-gradient(335deg, black 23px, transparent 23px),
+    linear-gradient(155deg, black 23px, transparent 23px),
+    linear-gradient(335deg, black 23px, transparent 23px),
+    linear-gradient(155deg, black 23px, transparent 23px);
+  background-size: 58px 58px;
+  background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+  color: #ffe6ff; /* Light color to ensure visibility on dark background */
+  min-height: 100vh; /* Ensures the body covers the full viewport */
+  
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 50px 20px;
+  background-color: transparent; /* No solid background here */
+  height: 100vh;
+}
+
+.header-content h1,
+.header-content p {
+  font-family: "Clip", sans-serif;
+  font-size: 4em;
+  color: #ffe6ff; /* Ensure text is visible */
+  text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+    -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+    0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+	    animation: moving-glow 3s infinite alternate;
+}
+@keyframes moving-glow {
+    0% {
+        text-shadow: 0 0 15px #FF69B4, 0 0 20px #FF85C0, 0 0 30px #FF85C0, 0 0 40px #FF69B4;
+    }
+    50% {
+        text-shadow: 0 0 20px #FF85C0, 0 0 25px #FF69B4, 0 0 35px #FF69B4, 0 0 50px #FF85C0;
+    }
+    100% {
+        text-shadow: 0 0 10px #FF85C0, 0 0 20px #FF69B4, 0 0 30px #FF69B4, 0 0 40px #FF85C0;
+    }
+}
+section {
+  padding: 20px;
+  margin: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay for readability */
+  border-radius: 10px;
+}
+
+}
+@keyframes shine {
+    0% {
+        color: #6b1839;
+        text-shadow: none;
+    }
+    100% {
+        color: #ffe6ff;
+        text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd,
+                     -0.2rem 0.1rem 1rem #ff65bd, 0.2rem 0.1rem 1rem #ff65bd,
+                     0 -0.5rem 2rem #ff2483, 0 0.5rem 3rem #ff2483;
+    }
+}
+
+@keyframes flicker {
+    0%, 22%, 36%, 75% {
+        opacity: 1;
+    }
+    28%, 33% {
+        opacity: 0.8;
+    }
+    82%, 97% {
+        opacity: 0.9;
+    }
+}
+.header-content p {
+    font-family: "Clip", sans-serif; /* Apply the custom font to the paragraph as well */
+    font-size: 1.2em;
+    color: #ffe6ff;
+    text-shadow: 0 0 0.6rem #ffe6ff, 0 0 1.5rem #ff65bd;
+}
+.introduction {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center-align the content */
+    text-align: center; /* Center-align the text */
+    margin: 40px 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+}
+
+.intro-text h2 {
+    font-size: 2.5em; /* Larger header size */
+    margin-bottom: 15px;
+    color: #FF69B4
+}
+
+.intro-text p {
+    font-size: 1.5em; /* Larger paragraph size */
+    line-height: 1.8; /* Better readability */
+    color: #fff;
+}
+
+.intro-image img {
+    width: 90%; /* Make the image larger */
+    border-radius: 15px; /* Slightly round the corners */
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.3); /* Add a shadow for emphasis */
+    margin-top: 20px; /* Add space above the image */
+}
+
+
+
+.info {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.info-block {
+    text-align: center;
+    margin: 20px;
+    width: 45%;
+	font-size: 1.5em;
+	color: #FF69B4
+}
+.info-block p{
+	color: white;
+}
+
+.info-block img {
+    width: 150px;
+    margin-bottom: 90px;
+	width: 30%;
+}
+
+.collaboration {
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8); /* Darker background for contrast */
+    border-radius: 20px;
+    color: #FF69B4;
+    max-width: 1200px; /* Centers content and limits width */
+    box-shadow: 0 10px 20px #FF69B4; /* Adds depth */
+    text-align: center;
+}
+
+.collaboration-title {
+    font-size: 2.8em;
+    font-weight: bold;
+    color: #FF69B4
+    margin-bottom: 30px;
+    text-transform: uppercase; /* Makes the title stand out */
+    text-shadow: 5px 5px 8px #FF69B4;
+
+}
+
+/* Collaboration Content Layout */
+.collaboration-content {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two-column layout */
+    gap: 30px;
+    align-items: start;
+}
+
+.text-content {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    font-size: 1.2em;
+    line-height: 1.8;
+    color: #fff;
+}
+
+.text-content ul {
+    margin: 15px 0;
+    padding-left: 20px;
+    list-style-type: disc; /* Adds bullet points for lists */
+}
+
+.text-content li {
+    margin-bottom: 10px;
+}
+
+.image-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.collab-img {
+    width: 100%;
+    max-width: 500px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.6); /* More prominent shadow */
+    transition: transform 0.3s ease; /* Adds hover animation */
+}
+
+.collab-img:hover {
+    transform: scale(1.05); /* Zooms image slightly on hover */
+}
+
+
+.tools {
+    margin: 40px 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 15px;
+    text-align: center;
+    color: #FF69B4
+}
+
+.tools-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.tool {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 45%;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+.tool li strong {
+    color: #FF69B4 !important; /* Enforce hot pink */
+}
+.tool h3 {
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    color: #FF69B4
+}
+.tools h2 {
+	font-size: 2em;
+}
+
+.tool ul {
+    list-style: none;
+    padding: 0;
+}
+
+.tool li {
+    margin-bottom: 10px;
+    font-size: 1.2em;
+    text-align: left;
+    line-height: 1.5;
+	 color: #fff; /* Definitions in white */
+}
+
+.tool strong {
+    color: #ffdd99;
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+.real-world {
+    margin: 40px 20px;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+
+.real-world h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #FF69B4;;
+}
+
+.real-world-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.real-world-content .text {
+    flex: 1;
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.real-world-content .image {
+    flex: 1;
+    text-align: center;
+}
+
+.real-world-content .image img {
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.workflow {
+    margin: 30px 0;
+    text-align: center;
+}
+
+.workflow h3 {
+    font-size: 2em;
+    color: #ffdd99;
+    margin-bottom: 15px;
+	color: #FF69B4;
+}
+
+.workflow-diagram {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+    text-align: left;
+}
+.highlight {
+    margin: 30px auto;
+    padding: 20px;
+    background: linear-gradient(135deg, #FF69B4, #FF85C0);
+    border-radius: 15px;
+    color: white;
+    font-size: 1.4em;
+    text-align: center;
+    box-shadow: 0 8px 20px rgba(255, 105, 180, 0.5);
+    position: relative;
+    overflow: hidden;
+}
+
+.highlight::before {
+    content: '';
+    position: absolute;
+    top: -50px;
+    left: -50px;
+    width: 200px;
+    height: 200px;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 50%;
+    animation: float 6s infinite ease-in-out;
+    z-index: 0;
+}
+
+.highlight p {
+    position: relative;
+    z-index: 1;
+}
+
+.highlight strong {
+    color: white; /* Gold color for emphasis */
+    text-shadow: 0 0 10px #FF69B4, 0 0 15px #FF85C0;
+}
+
+
+.step {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    min-width: 180px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 220px;
+}
+
+.step h4 {
+    font-size: 1.2em;
+    margin: 10px 0;
+    color: #fff;
+}
+
+.step p {
+    font-size: 1em;
+    line-height: 1.4;
+    color: #ddd;
+}
+
+.circle {
+    width: 60px;
+    height: 60px;
+    background-color: #FF69B4;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.circle img {
+    width: 40px;
+    height: 40px;
+}
+
+.arrow {
+    font-size: 2em;
+    font-weight: bold;
+    color: #fff;
+    margin: 0 15px;
+}
+.why-path {
+    margin: 40px auto;
+    padding: 30px;
+    background-color: rgba(0, 0, 0, 0.8);
+    border-radius: 15px;
+    max-width: 800px;
+    color: #ffe6ff; /* Light text for contrast */
+    text-align: center;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
+}
+
+.why-path h2 {
+    font-size: 2.5em;
+    color: #FF69B4; /* Hot pink for emphasis */
+    margin-bottom: 20px;
+    text-shadow: 0 0 10px #FF69B4, 0 0 20px #ff99cc;
+}
+
+.why-path p {
+    font-size: 1.3em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+/* Base styles */
+[data-animation] {
+  opacity: 0;
+  transform: translateY(20px); /* Default hidden state */
+  transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+/* Animation when in view */
+[data-animation].animate {
+  opacity: 1;
+  transform: translateY(0); /* Reset transform */
+}
+
+/* Slide-Up Animation */
+[data-animation="slide-up"] {
+  transform: translateY(50px);
+}
+
+[data-animation="slide-up"].animate {
+  transform: translateY(0);
+}
+
+/* Slide-Left Animation */
+[data-animation="slide-left"] {
+  transform: translateX(-50px);
+}
+
+[data-animation="slide-left"].animate {
+  transform: translateX(0);
+}
+
+/* Fade-In Animation */
+[data-animation="fade-in"] {
+  opacity: 0;
+}
+
+[data-animation="fade-in"].animate {
+  opacity: 1;
+}
+
