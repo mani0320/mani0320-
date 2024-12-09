@@ -2,7 +2,7 @@
 
 <h2>👨‍💻 Software Development Projects:</h2>
 
-- <b>Projects: https://mani0320.github.io/careerWebsite/ using html, java, css</b>
+- <b>Projects: [https://mani0320.github.io/careerWebsite/](https://mani0320.github.io/careerWebsite/) using html, java, css</b>
 - <b>Projects: [https://mani0320.github.io/mani0320-/](https://mani0320.github.io/careerWebsite/index.html) using html, java, css, boostrap</b>
 
 
