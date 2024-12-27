@@ -2,8 +2,11 @@
 
 <h2>👨‍💻 Software Development Projects:</h2>
 
-- <b>Projects: [https://mani0320.github.io/careerWebsite/](https://mani0320.github.io/careerWebsite/) using html, java, css</b>
-- <b>Projects: [https://mani0320.github.io/mani0320-/](https://mani0320.github.io/careerWebsite/index.html) using html, java, css, boostrap</b>
+- <b>Projects: [Career Website](https://mani0320.github.io/careerWebsite/) using html, java, css</b>
+- <b>Projects: 
+- <b>Projects: [Presentation](https://mani0320.github.io/frontenddev/) using html, css</b>
+
+
 
 
 
@@ -11,7 +14,7 @@
 <h2> 🤳 Connect with me:</h2>
 
 
-[<img align="left" alt="JoshMadakor | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
+[<img align="left" alt="Imanihill | LinkedIn" width="22px" src="https://cdn.jsdelivr.net/npm/simple-icons@v3/icons/linkedin.svg" />][linkedin]
 
 
 [linkedin]: www.linkedin.com/in/imani-hill-170b09187
