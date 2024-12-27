@@ -2,12 +2,11 @@
 
 <h2>👨‍💻 Software Development Projects:</h2>
 
+- <b>Projects: [Portfolio](https://mani0320.github.io/portfolio/) using HTML, CSS, and JavaScript, React, Next.js, AI Integration(in process)
 - <b>Projects: [Career Website](https://mani0320.github.io/careerWebsite/) using html, java, css</b>
-- <b>Projects: [Portfolio](https://mani0320.github.io/portfolio/)
 - <b>Projects: [Presentation](https://mani0320.github.io/frontenddev/) using html, css</b>
 
 
-https://mani0320.github.io/portfolio/
 
 
 
