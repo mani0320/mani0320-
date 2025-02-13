@@ -5,6 +5,7 @@
 - <b>Projects: [Portfolio](https://mani0320.github.io/portfolio/) using HTML, CSS, and JavaScript, React, Next.js, AI Integration(in process)
 - <b>Projects: [Career Website](https://mani0320.github.io/careerWebsite/) using html, java, css</b>
 - <b>Projects: [Presentation](https://mani0320.github.io/frontenddev/) using html, css</b>
+- <b>Projects: [Guessing Game](https://github.com/mani0320/guessGame) using flask, python,html, css</b>
 
 
 
